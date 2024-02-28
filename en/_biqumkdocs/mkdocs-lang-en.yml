@@ -139,13 +139,13 @@ nav:
         - EBB 2240 2209 CAN.md
         - EBB 2209 CAN RP2040.md
         - U2C.md
-    - IOT:
+    - SKR Series:
       - CB1.md
       - PI4B.md
       - PAD7.md
       - KNOMI.md
       - KNOMI2.md
-    - Displays:
+    - Octopus Series:
       - TFT43-DIP.md
       - TFT35 E3.md
       - TFT35.md
@@ -153,7 +153,7 @@ nav:
       - TFT35 SPI.md
       - HDMI5.md
       - HDMI7.md
-    - Motor Drives:
+    - Manta Series:
       - TMC Series:
         - TMC2130.md
         - TMC5160.md
@@ -171,13 +171,13 @@ nav:
         - EZ2209.md
         - EZ2240.md
         - EZ31865.md
-    - Software Tutorials:
+    - EBB Series:
       - Multiple 3D Printers.md
       - Software Configuration.md
       - Software Installation.md
       - EBB Series.md
       - libinput_calibration.md    
-  - BIQU:
+  - IOT:
     - Panda series: 
       - Panda Hotend:
         - Panda Flow:
@@ -201,10 +201,10 @@ nav:
       - Panda Lux.md 
     - Extruders: Extruders.md 
     - Hotends: Hotends.md 
-    - Sensor modules:
+    - Motor Drives:
       - Hermit Crab 2 Series.md
     - Printers: Printers.md 
-    - Cooling solution:
+    - TMC Series:
       - Universal Turbo Kit.md 
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
