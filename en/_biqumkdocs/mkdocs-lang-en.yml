@@ -177,7 +177,7 @@ nav:
       - Software Installation.md
       - EBB Series.md
       - libinput_calibration.md    
-  - IOT:
+  - MMB Series:
     - Panda series: 
       - Panda Hotend:
         - Panda Flow:
@@ -201,10 +201,10 @@ nav:
       - Panda Lux.md 
     - Extruders: Extruders.md 
     - Hotends: Hotends.md 
-    - Motor Drives:
+    - Displays:
       - Hermit Crab 2 Series.md
     - Printers: Printers.md 
-    - TMC Series:
+    - Motor Drives:
       - Universal Turbo Kit.md 
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
