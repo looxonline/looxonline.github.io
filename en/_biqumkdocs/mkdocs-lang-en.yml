@@ -4,7 +4,7 @@
 # layout.  See that script and the README file for more details.
 
 # Site and directory configuration
-site_name: BIGTREETECH documentation
+site_name: BIGTREETECH WIKI
 repo_url: https://github.com/bigtreetech/docs
 repo_name: bigtreetech/docs
 edit_uri: blob/master/docs/
@@ -121,10 +121,16 @@ extra:
 
 # Navigation hierarchy (this should mimic the layout of Overview.md)
 nav:
-  - BTT:
+  - BIGTREETECH:
     - Motherboards:
       - SKR Series:
         - SKR MINI E3.md
+        - SKR 3 EZ.md
+        - SKR 3.md
+        - SKR Pico.md
+        - SKR PRO V1.2.md
+        - SKR V1.4.md
+        - SKRat.md
       - Octopus Series:
         - Octopus.md
         - Octopus Pro.md
@@ -139,26 +145,35 @@ nav:
         - EBB 2240 2209 CAN.md
         - EBB 2209 CAN RP2040.md
         - U2C.md
-    - SKR Series:
+      - MMB Series:
+        - MMB CAN V1.0.md
+    - IOT:
       - CB1.md
+      - CB2.md
+      - Pi2.md
       - PI4B.md
       - PAD7.md
       - KNOMI.md
       - KNOMI2.md
-    - Octopus Series:
+      - Panda Touch.md
+      - Klipper Touch.md
+      - Panda Branch.md
+    - Displays:
       - TFT43-DIP.md
       - TFT35 E3.md
       - TFT35.md
       - TFT24.md
       - TFT35 SPI.md
       - HDMI5.md
-      - HDMI7.md
-    - Manta Series:
+      - HDMI7 V1.0.md
+      - HDMI7 V1.2.md
+    - Motor Drives:
       - TMC Series:
         - TMC2130.md
         - TMC5160.md
         - TMC2209.md
         - TMC2208.md
+        - TMC2240.md
         - TMC5160TPlus.md
         - Tutorials.md
       - EZ Series:
@@ -169,18 +184,21 @@ nav:
         - EZ5160 Pro.md
         - EZDriver Connector.md
         - EZ2209.md
-        - EZ2240.md
         - EZ31865.md
-    - EBB Series:
+    - Sensors :
+      - ADXL345.md
+      - SKSM.md
+      - Eddy.md
+    - Software Tutorials:
       - Multiple 3D Printers.md
       - Software Configuration.md
       - Software Installation.md
       - EBB Series.md
       - libinput_calibration.md    
-  - MMB Series:
+  - BIQU:
     - Panda series: 
       - Panda Hotend:
-        - Panda Flow:
+        - Panda Flow/CHT:
           - X1:
             - Panda Flow X1.md
           - P1:
@@ -190,21 +208,30 @@ nav:
             - Panda Revo X1 Hotend.md
           - P1:
             - Panda Revo P1 Hotend.md
-        - Panda CHT:
-          - X1:
-            - Panda CHT X1.md
-          - P1:
-            - Panda CHT P1.md
+      - Panda Claw:
+          - Panda A1Mini.md
+          - Panda P1 X1.md
       - PandaTouch.md
+      - Panda Hub.md
       - Panda Jet.md 
       - Panda Fur.md 
       - Panda Lux.md 
-    - Extruders: Extruders.md 
-    - Hotends: Hotends.md 
-    - Displays:
+    - Extruders: 
+      - Extruders.md 
+      - H2 V2S.md 
+      - H2 V2S Revo.md 
+      - H2 V2S Lite.md 
+      - H2 V2S Lite Revo.md 
+      - H2 V2X.md 
+    - Hotends: 
+      - Hotends.md 
+    - Sensor modules:
       - Hermit Crab 2 Series.md
-    - Printers: Printers.md 
-    - Motor Drives:
+    - Printers: 
+      - Printers.md 
+    - tools:
+      - belter.md
+    - Cooling solution:
       - Universal Turbo Kit.md 
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
