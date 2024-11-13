@@ -147,7 +147,7 @@ nav:
         - U2C.md
       - MMB系列:
         - MMB CAN V1.0.md
-    - 物联网:
+    - CNC系列:
       - CB1.md
       - CB2.md
       - Pi2.md
@@ -158,7 +158,7 @@ nav:
       - Panda Touch.md
       - Klipper Touch.md
       - Panda Branch.md
-    - 显示屏:
+    - 物联网:
       - TFT43-DIP.md
       - TFT35 E3.md
       - TFT35.md
@@ -167,8 +167,8 @@ nav:
       - HDMI5.md
       - HDMI7 V1.0.md
       - HDMI7 V1.2.md
-    - 电机驱动:
-      - TMC系列:
+    - 显示屏:
+      - 电机驱动:
         - TMC2130.md
         - TMC5160.md
         - TMC2209.md
@@ -176,7 +176,7 @@ nav:
         - TMC2240.md
         - TMC5160TPlus.md
         - Tutorials.md
-      - EZ系列:
+      - TMC系列:
         - EZ2130.md
         - EZ2208.md
         - EZ2225.md
@@ -189,26 +189,26 @@ nav:
       - ADXL345.md
       - SKSM.md
       - Eddy.md
-    - 软件教程:
+    - 模块:
       - Multiple 3D Printers.md
       - Software Configuration.md
       - Software Installation.md
       - EBB Series.md
       - libinput_calibration.md    
-  - BIQU:
+  - 软件教程:
     - Panda series: 
-      - Panda 热端:
+      - Panda 系列:
         - Panda Flow/CHT:
           - X1:
             - Panda Flow X1.md
-          - P1:
+          - Panda Revo:
             - Panda Flow P1.md
-        - Panda Revo:
+        - X1:
           - X1:
             - Panda Revo X1 Hotend.md
-          - P1:
+          - Panda Revo:
             - Panda Revo P1 Hotend.md
-      - Panda Claw:
+      - P1:
           - Panda A1Mini.md
           - Panda P1 X1.md
       - PandaTouch.md
@@ -225,13 +225,13 @@ nav:
       - H2 V2X.md 
     - Hotends: 
       - Hotends.md 
-    - 传感器模块:
+    - 热端:
       - Hermit Crab 2 Series.md
     - Printers: 
       - Printers.md 
-    - 工具:
+    - 打印机:
       - belter.md
-    - 冷却液:
+    - 工具:
       - Universal Turbo Kit.md 
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
