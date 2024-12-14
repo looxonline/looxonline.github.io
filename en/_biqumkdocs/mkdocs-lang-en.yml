@@ -158,7 +158,7 @@ nav:
       - Panda Touch.md
       - Klipper Touch.md
       - Panda Branch.md
-    - IOT:
+    - Kraken Series:
       - TFT43-DIP.md
       - TFT35 E3.md
       - TFT35.md
@@ -167,8 +167,8 @@ nav:
       - HDMI5.md
       - HDMI7 V1.0.md
       - HDMI7 V1.2.md
-    - Displays:
-      - Motor Drives:
+    - IOT:
+      - Displays:
         - TMC2130.md
         - TMC5160.md
         - TMC2209.md
@@ -176,7 +176,7 @@ nav:
         - TMC2240.md
         - TMC5160TPlus.md
         - Tutorials.md
-      - TMC Series:
+      - Motor Drives:
         - EZ2130.md
         - EZ2208.md
         - EZ2225.md
@@ -189,26 +189,26 @@ nav:
       - ADXL345.md
       - SKSM.md
       - Eddy.md
-    - Modules:
+    - EZ Series:
       - Multiple 3D Printers.md
       - Software Configuration.md
       - Software Installation.md
       - EBB Series.md
       - libinput_calibration.md    
-  - Software Tutorials:
+  - Modules:
     - Panda series: 
-      - Panda series:
+      - BIQU:
         - Panda Flow/CHT:
-          - X1:
+          - Panda Revo:
             - Panda Flow X1.md
           - Panda Revo:
             - Panda Flow P1.md
-        - X1:
-          - X1:
+        - Panda Revo:
+          - Panda Revo:
             - Panda Revo X1 Hotend.md
           - Panda Revo:
             - Panda Revo P1 Hotend.md
-      - P1:
+      - X1:
           - Panda A1Mini.md
           - Panda P1 X1.md
       - PandaTouch.md
@@ -225,13 +225,13 @@ nav:
       - H2 V2X.md 
     - Hotends: 
       - Hotends.md 
-    - Hotends:
+    - Extruders:
       - Hermit Crab 2 Series.md
     - Printers: 
       - Printers.md 
-    - Printers:
+    - Sensor modules:
       - belter.md
-    - tools:
+    - Printers:
       - Universal Turbo Kit.md 
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
