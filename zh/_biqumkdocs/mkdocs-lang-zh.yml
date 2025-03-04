@@ -139,15 +139,22 @@ nav:
         - M4P.md
         - M5P.md
         - M8P.md
+        - M8P-V2_0.md
       - EBB系列:
         - EBB 36 CAN.md
         - EBB 42 CAN.md
         - EBB 2240 2209 CAN.md
         - EBB 2209 CAN RP2040.md
+        - EBB SB2209 USB.md
         - U2C.md
       - MMB系列:
         - MMB CAN V1.0.md
-    - CNC系列:
+        - MMB CAN V2.0.md
+      - CNC系列:
+        - Rodent.md
+      - Kraken系列:
+        - Kraken.md
+    - 物联网:
       - CB1.md
       - CB2.md
       - Pi2.md
@@ -155,10 +162,12 @@ nav:
       - PAD7.md
       - KNOMI.md
       - KNOMI2.md
+      - PandaKnomi.md
       - Panda Touch.md
       - Klipper Touch.md
-      - Panda Branch.md
-    - Kraken系列:
+      - Panda Branch.md 
+      - DZ01.md
+    - 显示屏:
       - TFT43-DIP.md
       - TFT35 E3.md
       - TFT35.md
@@ -167,16 +176,17 @@ nav:
       - HDMI5.md
       - HDMI7 V1.0.md
       - HDMI7 V1.2.md
-    - 物联网:
-      - 显示屏:
+    - 电机驱动:
+      - TMC系列:
         - TMC2130.md
         - TMC5160.md
         - TMC2209.md
         - TMC2208.md
         - TMC2240.md
         - TMC5160TPlus.md
+        - TMC5160T Pro V1.0.md
         - Tutorials.md
-      - 电机驱动:
+      - EZ系列:
         - EZ2130.md
         - EZ2208.md
         - EZ2225.md
@@ -189,33 +199,43 @@ nav:
       - ADXL345.md
       - SKSM.md
       - Eddy.md
-    - EZ系列:
+    - 软件教程:
       - Multiple 3D Printers.md
       - Software Configuration.md
       - Software Installation.md
       - EBB Series.md
-      - libinput_calibration.md    
-  - 模块:
+      - libinput_calibration.md
+      - pi_custom_logo.md
+  - BIQU:
     - Panda series: 
-      - BIQU:
+      - Panda 热端:
         - Panda Flow/CHT:
-          - Panda Revo:
+          - X1:
             - Panda Flow X1.md
-          - Panda Revo:
+          - P1:
             - Panda Flow P1.md
         - Panda Revo:
-          - Panda Revo:
+          - X1:
             - Panda Revo X1 Hotend.md
-          - Panda Revo:
+          - P1:
             - Panda Revo P1 Hotend.md
-      - X1:
+      - Panda Claw:
           - Panda A1Mini.md
           - Panda P1 X1.md
       - PandaTouch.md
+      - PandaBranch.md
       - Panda Hub.md
       - Panda Jet.md 
       - Panda Fur.md 
       - Panda Lux.md 
+      - Panda-Lux-A1-A1mini.md
+      - Panda-Door.md 
+      - Panda-Enclosure.md
+      - Panda PWR.md
+      - Panda Jetpack.md
+      - Panda extruder.md
+      - PandaEdge.md
+      - Panda-AMS-Holder.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
@@ -223,16 +243,18 @@ nav:
       - H2 V2S Lite.md 
       - H2 V2S Lite Revo.md 
       - H2 V2X.md 
+      - Nebula.md 
     - Hotends: 
       - Hotends.md 
-    - 挤出机:
+    - 传感器模块:
       - Hermit Crab 2 Series.md
     - Printers: 
       - Printers.md 
-    - 传感器模块:
+    - 工具:
       - belter.md
-    - 打印机:
+    - 冷却液:
       - Universal Turbo Kit.md 
+      - Eco Turbo Kit.md 
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
 
