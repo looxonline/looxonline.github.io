@@ -3540,7 +3540,7 @@
 <p>\2. 输入</p>
 <p>​   <strong>make menuconfig</strong></p>
 <p>​   并按照下图配置</p>
-<p><img src=img/MMB_Cubic/MMB_Cubic_Klipper1.png width="600" /></p>
+<p><img src=img/rp2040_katapult_menuconfig.png width="600"/></p>
 <p>\3)输入 <strong>make</strong> 编译固件，当 <strong>make</strong> 执行完成后会在 <strong>home/biqu/katapult/out</strong> 文件夹中生成我们所需要的“<strong>katapult.uf2</strong>”固件，在 SSH 软件左侧可以直接下载到电脑中；</p>
 <p><img src=img/MMB_Cubic/MMB_Cubic_Klipper2.png width="600" /></p>
 <p>\4) 请按住 <strong>Boot</strong> 按钮，然后使用 Type-C 线连接至树莓派/CB1，此时芯片进入 DFU 模式</p>
@@ -3555,14 +3555,15 @@
 <p>​   <strong>cd ~/klipper/</strong> </p>
 <p>​   <strong>make menuconfig</strong></p>
 <p>​   使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本)；</p>
-<p><img src=img/MMB_Cubic/MMB_Cubic_Klipper4.png width="600" /></p>
+<p><img src=img/rp2040_canbus_menuconfig.png width="600" /></p>
 <p>​   <strong>[*] Enable extra low-level configuration options</strong></p>
-<p>​    <strong>Micro-controller Architecture (Raspberry Pi RP2040) ---&gt;</strong></p>
+<p>​    <strong>Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;</strong></p>
+<p>​    <strong>Processor model (rp2040)  ---&gt;</strong></p>
 <p>​   如果不使用 katapult </p>
 <p>​    <strong>Bootloader offset (No bootloader) ---&gt;</strong></p>
 <p>​   如果使用 katapult</p>
 <p>​    <strong>Bootloader offset (16KiB bootloader) ---&gt;</strong></p>
-<p>​    <strong>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</strong></p>
+<p>​    <strong>Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;</strong></p>
 <p>​   如果使用 CAN bus 通信</p>
 <p>​    <strong>Communication Interface (CAN bus) ---&gt;</strong></p>
 <p>​   <strong>(4) CAN RX gpio number</strong></p>
@@ -3570,8 +3571,6 @@
 <p>​   <strong>(1000000) CAN bus speed</strong></p>
 <p>​   如果使用 USB 通信</p>
 <p>​    <strong>Communication Interface (USBSERIAL) ---&gt;</strong></p>
-<p>​    <strong>USB ids ---&gt;</strong></p>
-<p>​   <strong>() GPIO pins to set at micro-controller startup</strong></p>
 <p>\2. 配置选择完成后, 输入 ‘<strong>q</strong>’退出配置界面，当询问是否保存配置时选择“<strong>Yes</strong>”；</p>
 <p>\3. 输入 <strong>make</strong> 编译固件，当 <strong>make</strong> 执行完成后会在 <strong>home/biqu/klipper/out</strong> 文件夹中生成我们所需要的<strong>“klipper.bin”</strong>固件</p>
 <h3 id="katapult"><strong>通过 katapult 进行固件更新</strong><a class="headerlink" href="#katapult" title="Permanent link">&para;</a></h3>
