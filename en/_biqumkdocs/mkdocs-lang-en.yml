@@ -246,13 +246,13 @@ nav:
       - Nebula.md 
     - Hotends: 
       - Hotends.md 
-    - Sensor modules:
+    - Hotends:
       - Hermit Crab 2 Series.md
     - Printers: 
       - Printers.md 
-    - tools:
+    - Printers:
       - belter.md
-    - Cooling solution:
+    - tools:
       - Universal Turbo Kit.md 
       - Eco Turbo Kit.md 
 

@@ -246,13 +246,13 @@ nav:
       - Nebula.md 
     - Hotends: 
       - Hotends.md 
-    - 传感器模块:
+    - 热端:
       - Hermit Crab 2 Series.md
     - Printers: 
       - Printers.md 
-    - 工具:
+    - 打印机:
       - belter.md
-    - 冷却液:
+    - 工具:
       - Universal Turbo Kit.md 
       - Eco Turbo Kit.md 
 
