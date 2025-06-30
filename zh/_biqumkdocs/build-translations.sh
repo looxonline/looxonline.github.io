@@ -10,7 +10,13 @@ TRANS_FILE="${TRANS_DIR}active_translations"
 MKDOCS_MAIN="${MKDOCS_DIR}mkdocs-main.yml"
 
 # Fetch translations
-git clone --depth 1 https://github.com/bigtreetech/docs ${TRANS_DIR}
+# git clone --depth 1 https://github.com/bigtreetech/docs ${TRANS_DIR}
+
+# copy build file to work dir 
+mkdir ${WORK_DIR}
+mkdir ${TRANS_DIR}
+cp -r docs ${TRANS_DIR}
+cp active_translations ${TRANS_DIR}
 
 # Create new mkdocs-main.yml with language links
 cp ${MKDOCS_DIR}mkdocs.yml ${MKDOCS_MAIN}
@@ -55,12 +61,13 @@ while IFS="," read dirname langsite langdesc langsearch; do
   X1=$(sed -n '49p' ${locale_dir}/Navigation.md)  
   P1=$(sed -n '51p' ${locale_dir}/Navigation.md)  
   Panda_Claw=$(sed -n '53p' ${locale_dir}/Navigation.md)  
-  Extruders=$(sed -n '55p' ${locale_dir}/Navigation.md)  
-  Hotends=$(sed -n '57p' ${locale_dir}/Navigation.md)  
-  Sensor_modules=$(sed -n '59p' ${locale_dir}/Navigation.md)  
-  Printers=$(sed -n '61p' ${locale_dir}/Navigation.md)  
-  tools=$(sed -n '63p' ${locale_dir}/Navigation.md)
-  Cooling_solution=$(sed -n '65p' ${locale_dir}/Navigation.md) 
+  Panda_Aura=$(sed -n '55p' ${locale_dir}/Navigation.md) 
+  Extruders=$(sed -n '57p' ${locale_dir}/Navigation.md)  
+  Hotends=$(sed -n '59p' ${locale_dir}/Navigation.md)  
+  Sensor_modules=$(sed -n '61p' ${locale_dir}/Navigation.md)  
+  Printers=$(sed -n '63p' ${locale_dir}/Navigation.md)  
+  tools=$(sed -n '65p' ${locale_dir}/Navigation.md)
+  Cooling_solution=$(sed -n '67p' ${locale_dir}/Navigation.md) 
   
   # Copy markdown files to new_docs_dir
   echo "Copying $dirname to $langsite"
@@ -119,6 +126,7 @@ while IFS="," read dirname langsite langdesc langsearch; do
   sed -i "s%X1:$%${X1}:%" "${new_mkdocs_file}"    
   sed -i "s%P1:$%${P1}:%" "${new_mkdocs_file}"  
   sed -i "s%Panda Claw:$%${Panda_Claw}:%" "${new_mkdocs_file}"    
+  sed -i "s%Panda Aura:$%${Panda_Aura}:%" "${new_mkdocs_file}"    
   sed -i "s%Extruders:$%${Extruders}:%" "${new_mkdocs_file}"  
   sed -i "s%Hotends:$%${Hotends}:%" "${new_mkdocs_file}"   
   sed -i "s%Sensor modules:$%${Sensor_modules}:%" "${new_mkdocs_file}"
@@ -132,3 +140,8 @@ while IFS="," read dirname langsite langdesc langsearch; do
   ln -sf "${PWD}/site/${langsite}/" "${WORK_DIR}lang/${langsite}/site"
   mkdocs build -f "${new_mkdocs_file}"
 done < <(egrep -v '^ *(#|$)' ${TRANS_FILE})
+
+mkdir site/en
+cp site/*.html site/en
+cp -r site/img site/en
+cp -r site/assets site/en
