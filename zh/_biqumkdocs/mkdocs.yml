@@ -199,6 +199,7 @@ nav:
       - Klipper Touch.md
       - Panda Branch.md 
       - Creator_Knomi_Hi.md
+      - Creator_PWR.md
     - Displays:
       - TFT43-DIP.md
       - TFT35 E3.md
@@ -280,11 +281,21 @@ nav:
       - Panda-Purge-Shield.md
       - Panda-AMS-Guard.md
       - Panda_Den.md
-      - Panda-Turbo-Kit.md
       - 5050_LED_Light_Strip.md
       - Panda_Diaper_PX.md
       - Panda Breeze.md
       - Panda_Status.md
+      - Panda_Station.md
+      - Panda_Hub_Plus.md
+      - Panda_Branch_Plus.md
+      - Panda_Gateway.md
+      - Panda_Knomi_3D.md
+      - Panda_Hue_OTG.md
+      - Panda_PTFree.md
+      - Panda-Turbo-Kit.md
+      - Panda_Perch_H2D.md
+      - Panda-Under-Armor-PX.md
+      - Panda_Stack.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
@@ -305,5 +316,4 @@ nav:
       - Universal Turbo Kit.md 
       - Eco Turbo Kit.md 
 
-copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
-
+copyright: <a href="https://beian.miit.gov.cn/" target="_blank">© 2025 必趣创新科技(深圳)有限公司 版权所有 | 粤ICP备2024178516号</a>
